@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(0, 0, 0);
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(247, 247, 247);
+}
+.container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+.interface-block {
+	padding: 20px 5px;
+	margin: 15px;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 5px rgba(205, 205, 205, 1);
+	border-radius: 15px;
+}
+
+/* Profile block */
+.person-main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.image{
+	width: 20%;
+	max-height: 300px;
+	border-radius: 50%;
+	background-color: rgb(176, 234, 255);
+}
+.text-block-main{
+	height: 50%;
+	margin: 20px;
+}
+.first-line{
+	display: flex;
+	font-size: 35px;
+}
+.second-line{
+	font-size: 30px;
+}
+.person-name{
+	margin-right: 2vh;
+}
+
+/* Block with Beer */
+h1{
+	text-align: center;
+	margin-bottom: 25px;
+	font-weight: 500;
+	font-size: 30px;
+	padding: 5px;
+	color: rgb(0, 0, 0);
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+.text-block-beer{
+	font-size: 24px;
+	padding: 5%;
+}
+
+/* Button */
+.button-block{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.retry{
+	text-align: center;
+	margin-top: 25px;
+	background-color: #282828;
+	border:none;
+	border-radius: 5px;
+	color: white;
+	padding: 15px 30px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.retry:hover{
+	background-color: #474747;
+}
+
+/* Media */
+@media (max-width:700px) {
+	.first-line{
+		font-size: 25px;
+	}
+	.second-line{
+		font-size: 23px;
+	}
+	h1{
+		font-size: 25px;
+	}
+	.text-block-beer{
+		font-size: 23px;
+	}
+	.retry{
+		font-size: 17px;
+	}
+}
+@media (max-width:520px) {
+	.first-line{
+		font-size: 20px;
+	}
+	.second-line{
+		font-size: 15px;
+	}
+	h1{
+		font-size: 20px;
+	}
+	.text-block-beer{
+		font-size: 15px;
+	}
+	.retry{
+		font-size: 17px;
+	}
+}
